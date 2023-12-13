@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61edb860-f0e6-4d1f-a77c-d0e1e38790a2" name="Changes" comment="imported Turtle and Screen from turtle module.&#10;Initialized objects and create attribute changes and added code to move turtle and draw a square">
+    <list default="true" id="61edb860-f0e6-4d1f-a77c-d0e1e38790a2" name="Changes" comment="Added code to draw a dashed line">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -27,7 +27,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.main.executor": "Run",
+    "Python.main.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -82,11 +82,31 @@
       <option name="project" value="LOCAL" />
       <updated>1702483521086</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added code to draw a dashed line">
+      <option name="closed" value="true" />
+      <created>1702484998112</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702484998112</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="imported Turtle and Screen from turtle module.&#10;Initialized objects and create attribute changes and added code to move turtle and draw a square" />
-    <option name="LAST_COMMIT_MESSAGE" value="imported Turtle and Screen from turtle module.&#10;Initialized objects and create attribute changes and added code to move turtle and draw a square" />
+    <MESSAGE value="Added code to draw a dashed line" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added code to draw a dashed line" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
