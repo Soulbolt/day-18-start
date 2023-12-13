@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61edb860-f0e6-4d1f-a77c-d0e1e38790a2" name="Changes" comment="Added code to draw different shapes on the same position each with a different color line.">
+    <list default="true" id="61edb860-f0e6-4d1f-a77c-d0e1e38790a2" name="Changes" comment="Created a function to perform a &quot;random walk&quot; changing color with each step taken">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -98,13 +98,22 @@
       <option name="project" value="LOCAL" />
       <updated>1702488229815</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created a function to perform a &quot;random walk&quot; changing color with each step taken">
+      <option name="closed" value="true" />
+      <created>1702490895409</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702490895409</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="imported Turtle and Screen from turtle module.&#10;Initialized objects and create attribute changes and added code to move turtle and draw a square" />
     <MESSAGE value="Added code to draw a dashed line" />
     <MESSAGE value="Added code to draw different shapes on the same position each with a different color line." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added code to draw different shapes on the same position each with a different color line." />
+    <MESSAGE value="Created a function to perform a &quot;random walk&quot; changing color with each step taken" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a function to perform a &quot;random walk&quot; changing color with each step taken" />
   </component>
 </project>

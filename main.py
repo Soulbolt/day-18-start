@@ -1,3 +1,4 @@
+import turtle
 from turtle import Turtle, Screen
 import random
 
@@ -41,18 +42,28 @@ colors = ["blue", "red", "SlateGray", "purple", "orange", "green", "pink", "Dark
 #     don.color(random.choice(colors))
 #     draw_shape(side_num)
 # Create a random walk function which changes colors for each step taken, and make pen size bigger
-directions = [0, 90, 180, 270]
-don.pensize(15)
+# directions = [0, 90, 180, 270]
+# Create a tuple to generate random rb colors. Tuples are IMMUTABLE! Change color mode to use RGB values
+turtle.colormode(255)
 
 
-def random_walk(steps):
-    for turn in range(steps):
-        don.color(random.choice(colors))
-        don.forward(30)
-        don.setheading(random.choice(directions))
+def random_color():
+    rgb_colors = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
+    return rgb_colors
 
 
-random_walk(200)
+# don.pensize(15)
+#
+#
+# def random_walk(steps):
+#     for turn in range(steps):
+#
+#         don.color(random_color())
+#         don.forward(30)
+#         don.setheading(random.choice(directions))
+#
+#
+# random_walk(200)
 # open drawing screen until its clicked
 screen = Screen()
 screen.exitonclick()
