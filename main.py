@@ -64,6 +64,17 @@ def random_color():
 #
 #
 # random_walk(200)
+#draw a Spirograph
+don.speed("fastest")
+def spirograph(size_of_gap):
+    for _ in range(int(360 / size_of_gap)):
+        don.color(random_color())
+        don.circle(100)
+        don.setheading(don.heading() + size_of_gap)
+
+spirograph(5)
+
+
 # open drawing screen until its clicked
 screen = Screen()
 screen.exitonclick()
